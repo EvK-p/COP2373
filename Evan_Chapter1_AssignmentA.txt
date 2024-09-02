@@ -1,0 +1,45 @@
+Evan Keever
+09/01/24
+
+Program Description:
+	In this program, the code is going to run a simulated sale of tickets
+
+Logical Steps:
+	Step 1: The sales of the tickets, max number of tickets and total tickets left are 		defined
+	Step 2: Set the buyer count to 0
+	Step 3: The user inputs the requested amount of tickets
+	Step 4: IF the user puts in an invalid input, the error message will read
+	Step 5: If else statement is initialized to allow only the total amount of 20 			tickets to be bought
+	Step 6: The sale is displayed to have ended and the amount of buyers are also 			displayed
+	Step 7: The function is called
+
+Variables:
+	total_tickets: Only 20 tickets will be available for purchase
+	max_tickets: The maximum amount of tickets someone can buy per purchase
+	requested_tickets: How many tickets the user wishes to buy
+	buyer_count: How many buyers there are
+
+Functions:
+
+	'sales_of_tickets(total_tickets=20, max_tickets=4)':
+	Description: This is the main function to define ticket sales
+	
+	'input(prompt)':
+	Description: This is used to get user input from the command line
+
+	'int(input)':
+	Description: Converts the user input into an integer
+
+	'print("")':
+	Description: Used to display the messages and feedback to the user
+
+	'while total_tickets > 0':
+	Description: A loop that'll keep going while there are tickets available
+
+	'try':
+	Description: Used to execute a block of code that could be the exception
+	
+	'if/else':
+	Description: The Conditional statements that are made to check if the number of 	tickets is still available for purchase
+
+Link to repository: 
