@@ -1,0 +1,40 @@
+Name: Evan Keever 
+Date Created: 9/8/24
+
+
+Program Description: 
+	In this program, Python is going to simulate an 8ball game for the player.
+
+
+Logical Steps:  
+	[Step 1: Python is primed with the random module.]
+	[Step 2: The responses the 8ball could give are listed.]
+	[Step 3: The program will create the 8ball_responses.txt text file.]
+	[Step 4: The file will be read by the system, prompting the welcome message.]
+	[Step 5: User input in the form of yes or no questions will be asked.]
+	[Step 6: IF THE USER TYPES QUIT: The program will thank the user for playing and then close itself. IF THE 
+	         USER TYPES A QUESTION: The program will read the file and randomly pick a response from the list.]
+	[Step 7: The main functions are called.]
+
+
+Variables:  
+	[1: responses(Line 6) = Contains the strings that make up the different responses the magic 8ball can provide to the user.]
+	[2: file(Line 22) = Writes the responses to the file 8ball_responses.txt]
+	[3: response(Line )]
+	[4: file(Line 29) = Reads the responses from the file.]
+	[5: responses(Line 30) = Let's the program read the file input.]
+	[6: question(Line 35) = Hold's onto the users input]
+	[7: response(Line 42) = Tells the syntax to randomly pick an input from the list]
+
+
+Functions:
+	1. Function Name: [response_file]  
+   	Description: [This function is responsible for detailing the list of outputs the 8ball could give the user and stores them into a newly created text file.]  
+   	Parameters: [N/A]  
+   	Returns: [Creates 8ball_responses.txt file]
+	2. Function Name: [magic_8_ball]  
+  	Description: [This function tells the program to read the newly made text file and starts the response variable. The prompt for user input is also stated and will automatically 	randomize a response after receiving said input.]  
+   	Parameters: [N/A]  
+   	Returns: [Pulls a random response from the options in the 8ball_reponses.txt file.]
+
+Link to repository: https://github.com/EvK-p/COP2373
