@@ -11,7 +11,7 @@ Logical Steps:
         [Step 2: A text file is also created for the program to call back to]
         [Step 3: The second function is defined, the one that'll ask for user input]
         [Step 4: Text is displayed asking for user input]
-        [Step 5: The spam score, phrase_counts and found_phrases variables are started at zero]
+        [Step 5: The spam score, phrase_counts Sand found_phrases variables are started at zero]
         [Step 6: for if statement is created so that when a key word is detected, it will add a point to the spam_score and will display how many times the key word was said]
         [Step 7: The tiers of spam_likelihood are created with an elif function]
         [Step 8: The spam score, spam likelihood tier and the found phrases are displayed]
@@ -19,7 +19,13 @@ Logical Steps:
 
 
 Variables:
-        [1: common_spam_words:]
+        [1 words: A list that stores the phrases read from the file]
+        [2 email_message: Stores the user's input, which is the email message being evaluated.]
+        [3 spam score: A counter variable initialized to 0. It stores the score, incremented for every spam phrase found in the email.]
+        [4 phrase_counter: A dictionary where each key is a spam phrase, and the corresponding value is the count of how many times that phrase appears in the email message.]
+        [5 found_phrases:  A list to store spam phrases that were found in the email message.]
+        [6 count: A temporary variable used to store the number of occurrences of each phrase in the email message.]
+        [7 scam_likelihood: A string that stores the likelihood of the email being a scam, based on the spam score. Values can be "Low", "Moderate", or "High".]
 
 
 Functions:
