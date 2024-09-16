@@ -1,0 +1,35 @@
+Name: Evan Keever
+Date Created: 9/15/24
+
+
+Program Description:
+        In this program, Python is going to ask the user to input an email they recieved. Afterwards, the program is going to flag certain words based on a list it creates and create a spam point meter and level of potential scam.
+
+
+Logical Steps:
+        [Step 1: The program defines the list of 30 common words in spam emails]
+        [Step 2: A text file is also created for the program to call back to]
+        [Step 3: The second function is defined, the one that'll ask for user input]
+        [Step 4: Text is displayed asking for user input]
+        [Step 5: The spam score, phrase_counts and found_phrases variables are started at zero]
+        [Step 6: for if statement is created so that when a key word is detected, it will add a point to the spam_score and will display how many times the key word was said]
+        [Step 7: The tiers of spam_likelihood are created with an elif function]
+        [Step 8: The spam score, spam likelihood tier and the found phrases are displayed]
+        [Step 9: common_spam_words and ask_user are called]
+
+
+Variables:
+        [1: common_spam_words:]
+
+
+Functions:
+        1. Function Name: [common_spam_words]
+        Description: [It creates the 30 common words text file]
+        Parameters: [Opens a file in write mode to paste the words to]
+        Returns: [Just prints results]
+        2. Function Name: [ask_user]
+        Description: [Reads the spam phrases from the text file, takes email, and calculates the spam rating]
+        Parameters: []
+        Returns: [Just prints results]
+
+Link to repository: https://github.com/EvK-p/COP2373
