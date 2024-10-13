@@ -1,0 +1,88 @@
+
+Technical Design Document Template
+
+---
+
+Name: [Your Name]  
+Date Created: [Date]
+
+---
+
+Program Description: 
+[Provide a brief description of your program. Explain what the program does, its purpose, and any specific problem it solves.]
+
+---
+
+Logical Steps:  
+1. [Step 1: Describe the first logical step of your program]
+2. [Step 2: Describe the second logical step of your program]
+3. [Step 3: Describe the third logical step of your program]
+4. [Add more steps as needed]
+
+---
+
+Variables:  
+1. [Variable 1: Name and description of the variable]
+2. [Variable 2: Name and description of the variable]
+3. [Variable 3: Name and description of the variable]
+4. [Add more variables as needed]
+
+---
+
+Functions:
+1. Function Name: [Name of the function]  
+   Description: [Brief description of what the function does]  
+   Parameters: [List and describe the parameters the function takes]  
+   Returns: [Describe what the function returns]
+
+2. Function Name: [Name of the function]  
+   Description: [Brief description of what the function does]  
+   Parameters: [List and describe the parameters the function takes]  
+   Returns: [Describe what the function returns]
+
+3. [Add more functions as needed]
+
+---
+
+Link to repository: www.repository.com
+
+---
+
+### Example Filled Template ###
+
+---
+
+Name: John Doe  
+Date Created: June 19, 2024
+
+---
+
+Program Description:
+This program calculates the factorial of a given number. It prompts the user to input a non-negative integer and then computes the factorial of that number using a recursive function.
+
+---
+
+Logical Steps:  
+1. Prompt the user to input a non-negative integer.
+2. Validate the user input to ensure it is a non-negative integer.
+3. Define a recursive function to calculate the factorial.
+4. Call the recursive function with the user input.
+5. Display the result to the user.
+
+---
+
+Variables:  
+1.  num: The non-negative integer input by the user.
+2.  result: The calculated factorial of the input number.
+
+---
+
+Functions: 
+1. Function Name: factorial
+   Description: Computes the factorial of a given non-negative integer using recursion.  
+   Parameters: n (int): The non-negative integer for which the factorial is to be calculated.  
+   Returns: int: The factorial of the input number.
+
+---
+
+Link to repository: www.repository.com
