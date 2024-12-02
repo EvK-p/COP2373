@@ -1,0 +1,51 @@
+Name: Evan Keever  
+Date Created: 12/1/2024
+
+---
+
+Program Description: 
+[This program simulates and visualizes population growth for 10 cities in Florida over a span of 20 years, using a SQLite databasen.]
+
+---
+
+Logical Steps:  
+1. [Step 1: Create a SQLite database named population_YI.db and define a table population with columns: city, year, and population.]
+2. [Step 2: Populate the population table with the 2023 population data for 10 cities in Florida.]
+3. [Step 3: Using a 2% annual growth rate, calculate the population for each city for the years 2024–2043.]
+4. [Step 4: Allow the user to select a city and generate a line graph showing its population growth over 20 years using Matplotlib.]
+5. [Step 5: Provide an option for the user to exit the program gracefully.]
+
+---
+
+Variables:  
+1. [db_name: Name of the SQLite database file (population_YI.db).]
+2. [cities: List of tuples containing city names, year (2023), and initial populations.]
+3. [growth_rate: Annual population growth rate (2%).]
+4. [selected_city: Name of the city selected by the user for visualization.]
+
+---
+
+Functions:
+1. Function Name: [create_database]  
+   Description: [Creates the SQLite database and the population table to store city, year, and population data. Ensures that the table exists before inserting data.]  
+   Parameters: [N/A]  
+   Returns: [db_name: Name of the created database file.]
+
+2. Function Name: [insert_initial_data]  
+   Description: [Inserts initial population data for 10 Florida cities for the year 2023 into the population table.]  
+   Parameters: [db_name: Name of the database to connect to.]  
+   Returns: [N/A]
+
+3. Function Name: [simulate_population_growth]
+   Description: [Simulates population growth for each city over 20 years (2024–2043) using a 2% growth rate and stores the data in the database.]
+   Parameters: [db_name: Name of the database to connect to.]
+   Returns: [N/A]
+
+4. Function Name: [plot_population_growth]
+   Description: [Allows the user to choose a city from the database and visualizes its population growth over 20 years using a line graph.]
+   Parameters: [db_name: Name of the database to connect to.]
+   Returns: [N/A]
+
+---
+
+Link to repository: https://github.com/EvK-p/COP2373
